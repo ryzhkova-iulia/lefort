@@ -1,0 +1,6 @@
+{
+  "freeze_paths": {
+    "libs/**": "desktop.bundles/index/img/",
+    "common.blocks/**": "desktop.bundles/index/img/"
+  }
+}

@@ -22,19 +22,12 @@ module.exports = function (config) {
             }],
             // html
             [require('enb-bh/techs/bemjson-to-html')],
-            // tidy html
-            [require('enb-beautify/techs/enb-beautify-html'), {
-                sourceTarget: '?.html',
-                destTarget: '?.tidy.html'
-            }],
-            // borschik
-            // [borschikTech, { 
-            //     source: '?.css', 
-            //     target: '?.min.css', 
-            //     tech: 'cleancss', 
-            //     freeze: true, 
-            //     minify: isProd 
-            // }]
+
+            // // tidy html
+            // [require('enb-beautify/techs/enb-beautify-html'), {
+            //     sourceTarget: '?.html',
+            //     destTarget: '?.tidy.html'
+            // }],
 
             [browserJs, {
                 includeYM: true
@@ -51,8 +44,9 @@ module.exports = function (config) {
             '?.min.css',
             '?.min.js',
             '?.bh.js',
-            '?.html',
-            '?.tidy.html',
+            '?.html'
+            // ,
+            // '?.tidy.html',
 
         ]);
     });
