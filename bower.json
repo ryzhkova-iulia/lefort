@@ -1,0 +1,15 @@
+{
+  "author": "julia",
+  "name": "lefort.ndv.ru",
+  "email": "ryzhkovaiulia@yandex.ru",
+  "version": "0.0.0",
+  "ignore": [
+    ".enb/tmp",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-core": "v2.8.0",
+    "owl-carousel2" : "v2.1.6"
+  }
+}
